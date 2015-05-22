@@ -1,0 +1,52 @@
+body ,head {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	color: white;
+	background-color: black;
+	text-transform: lowercase;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+p {
+	text-align: center;
+}
+.list {
+	color: red;
+	text-decoration: none;
+	text-transform: lowercase;
+	line-height: 2;
+	padding: 4px;
+	border-style: none;
+	border-color: white;
+}
+.game {
+	text-align: right;
+}
+.pgame {
+	text-align: center;
+}
+a:hover, a:active {
+	background-color: white;
+}
+.big {
+	font-size: 30px;
+}
+.error {
+	text-align: center;
+}
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#list {
+}
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+li {
+	display: inline;
+}
